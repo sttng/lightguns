@@ -63,7 +63,12 @@ The pinouts of the 6pin RJ12-socket are:
 - 6 Power
 
 ## Sega Version
-There's also an identically looking Blue Gun for Sega (but with 9pin joystick connector). The Pink Gun can be used with both SNES and Sega Blue Gun versions.
+There's also an identically looking Blue Gun for Sega (but with 9pin joystick connector). 
+
+the Sega PCB looks 99% the same, except for the missing Konami print on the lower side and an additional hole at the top, plus a slide movement to the right of the top solder point. 
+But this might be also due to a slight revision of the PCB in general. 
+
+The Pink Gun can be used with both SNES and Sega Blue Gun versions.
 
 ## Convert blue gun into 2nd (pink) gun
 
