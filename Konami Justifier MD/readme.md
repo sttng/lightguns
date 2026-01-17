@@ -1,1 +1,28 @@
-Konami Justifies Mega Drive / Genesis
+# Konami Justifies Mega Drive / Genesis
+
+```
+   -_______________________--
+  |                :  :....: \_/\
+  |________________:__:....:    /
+   \________________\.:....; O  \_    <---- O = Start Button
+                    |_ _____      |
+                      \| ) |/\     \  <---- ) = Trigger
+                       \___/  |     |
+                              |     |
+                              |_____|
+               RJ12-socket ____/   \________ Cable (to Mega Drive controller port)
+            (for second gun)
+
+```
+
+  Blue Gun --> connects to Mega Drive (and has 6pin RJ12 socket for second gun)
+  
+  Pink Gun --> connects to 6pin RJ12 socket of first gun
+
+The Sega PCB looks 98% the same compared to the SNES, except for the missing Konami print on the lower side and an additional hole at the top, plus a slide movement to the right of the top solder point. Also it has different resistors and no capacitors (in difference to the SNES PCB). 
+
+The Pink Gun can be used with both SNES and Sega Blue Gun versions.
+
+## Convert blue gun into 2nd (pink) gun
+
+http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
