@@ -73,3 +73,7 @@ The Pink Gun can be used with both SNES and Sega Blue Gun versions.
 ## Convert blue gun into 2nd (pink) gun
 
 http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
+
+## Diode
+
+Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/Sharp-Microelectronics/IS485E?qs=5S%2F4hkdqNNeR3cROBNqcQg%3D%3D&srsltid=AfmBOoovrUQq4HjEcKYwQhL7y4MbDu9yn4uFzzom2SWx9jFHF5sSnjGC
