@@ -25,3 +25,8 @@ The 056816 seems to be is a 8-Bit Shift Register.
 
 ![Marking](https://github.com/sttng/lightguns/blob/main/Konami%20Justifier%20SFC/Konami-056816/Konami-056816-03.png)
 
+Lot No Examples:
+
+- 9338 M75
+- 9336 M56
+- 9334 M35
