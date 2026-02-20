@@ -91,3 +91,11 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 | IC1         | SO16W 7.5x10.3mm P1.27mm                           | 1        | Konami 056816 |
 
 
+### Top PCB
+
+| Designator  | Footprint                                          | Quantity | Description   |
+|-------------|----------------------------------------------------|----------|---------------|
+| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104)   |
+| D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
+| R           | ???                                                | 1        | ???           |
+
