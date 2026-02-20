@@ -77,3 +77,17 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 ## Diode
 
 Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/Sharp-Microelectronics/IS485E?qs=5S%2F4hkdqNNeR3cROBNqcQg%3D%3D&srsltid=AfmBOoovrUQq4HjEcKYwQhL7y4MbDu9yn4uFzzom2SWx9jFHF5sSnjGC
+
+## BoM
+
+### Bottom PCB
+
+| Designator  | Footprint                                          | Quantity | Description   |
+|-------------|----------------------------------------------------|----------|---------------|
+| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104p)  |
+| C           | Ceramic Capacitor                                  | 1        | 2.2nf (222)   |
+| C           | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
+| R           | zero-ohm link or zero-ohm resistor                 | 1        | 0 Ohm         |
+| IC1         | SO16W 7.5x10.3mm P1.27mm                           | 1        | Konami 056816 |
+
+
