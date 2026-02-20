@@ -84,7 +84,7 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104p)  |
+| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104)   |
 | C           | Ceramic Capacitor                                  | 1        | 2.2nf (222)   |
 | C           | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
 | R           | zero-ohm link or zero-ohm resistor                 | 1        | 0 Ohm         |
