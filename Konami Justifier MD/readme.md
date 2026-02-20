@@ -26,3 +26,14 @@ The Pink Gun can be used with both SNES and Sega Blue Gun versions.
 ## Convert blue gun into 2nd (pink) gun
 
 http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
+
+## BoM
+
+### Bottom PCB
+
+| Designator  | Footprint                                          | Quantity | Description   |
+|-------------|----------------------------------------------------|----------|---------------|
+| MD-R1       | THT Resistor                                       | 1        | 10k or 100k Ohm 1% Tolerance |
+| MD-R2       | THT Resistor                                       | 1        | 470 Ohm 5% Tolerance |
+| U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816 |
+
