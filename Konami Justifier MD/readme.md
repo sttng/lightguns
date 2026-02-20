@@ -42,6 +42,6 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
 | R           | THT Resistor                                       | 1        | 0.9k          |
-| R           | Diode (Sharp IS485E)                               | 1        | 12.2k         |
+| R           | THT Resistor                                       | 1        | 12.2k         |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
 
