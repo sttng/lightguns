@@ -84,8 +84,8 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| C           | Ceramic Capacitor                                  | 1        | 100nF (104)   |
-| C           | Ceramic Capacitor                                  | 1        | 2.2nf (222)   |
+| C2          | THT Ceramic Capacitor                              | 1        | 100nF (104)   |
+| C           | THT Ceramic Capacitor                              | 1        | 2.2nf (222)   |
 | C1          | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
 | R           | zero-ohm link or zero-ohm resistor                 | 1        | 0 Ohm         |
 | U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816 |
