@@ -41,7 +41,7 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| MD-R1       | THT Resistor  Beige (brown, black, red, gold)      | 1        | 1k Ohm 5% Tolerance |
-| MD-C1       | THT Capacitor Pink (brown, black, yellow , white)  | 1        | 100nF 10% Tolerance |
+| R1          | THT Resistor  Beige (brown, black, red, gold)      | 1        | 1k Ohm 5% Tolerance |
+| C1          | THT Capacitor Pink (brown, black, yellow , white)  | 1        | 100nF 10% Tolerance |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
 
