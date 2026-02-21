@@ -8,4 +8,10 @@
 
  ![Top PCB](https://raw.githubusercontent.com/sttng/lightguns/refs/heads/main/Konami%20Justifier%20SFC/KiCad/Top.png) 
 
+
+ ## Start Button PCB
+
+ ![Top PCB](https://raw.githubusercontent.com/sttng/lightguns/refs/heads/main/Konami%20Justifier%20SFC/KiCad/Button-Start.png) 
+
+ 
  
