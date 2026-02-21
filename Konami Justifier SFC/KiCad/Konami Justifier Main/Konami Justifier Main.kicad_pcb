@@ -206,7 +206,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/323ba958-1327-47dd-ac68-5b4aec129b44")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -312,7 +312,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ee6364ca-655a-4ab6-9ec0-1848292571b2")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -417,7 +417,7 @@
 		(property ki_fp_filters "6P6C* RJ12* RJ18* RJ25*")
 		(path "/822463bb-628a-49e8-92cb-7dd2283e7d30")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.84 0.77)
@@ -864,180 +864,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-		(layer "F.Cu")
-		(uuid "92438dae-6cfc-4c85-a1d7-57bb55d0b00d")
-		(at 145.34 78.5)
-		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
-		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "MD-R1"
-			(at 5.08 0 0)
-			(layer "F.SilkS")
-			(uuid "9e484e0b-ba07-44ba-be38-e7b7c77e7200")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "93 Ohm 1%"
-			(at 5.08 2.37 0)
-			(layer "F.Fab")
-			(uuid "70d33177-2dc8-4bc5-80eb-f91c3e6f7b70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf5e75e2-924d-42fe-8ec2-a51d8e337990")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60201233-a21a-4441-b631-827865c5f3f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/9cacd3ac-6b5c-462d-9c31-eb6978ca711a")
-		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 1.04 0)
-			(end 1.81 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb5d7d92-5c2e-4402-b260-31dc87678f3e")
-		)
-		(fp_line
-			(start 9.12 0)
-			(end 8.35 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "92ff3404-7fe4-4249-87c3-1ec2611a8eb7")
-		)
-		(fp_rect
-			(start 1.81 -1.37)
-			(end 8.35 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "5ca99f70-4ed7-4b74-af24-20849ca4e2ed")
-		)
-		(fp_rect
-			(start -1.05 -1.5)
-			(end 11.21 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b9bb65dd-3901-4f27-ae54-37a248fa8959")
-		)
-		(fp_line
-			(start 0 0)
-			(end 1.93 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "11d33016-7ed8-4309-9b8c-1cf7077c378c")
-		)
-		(fp_line
-			(start 10.16 0)
-			(end 8.23 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3d400edc-e54e-4468-9772-60b57b242e83")
-		)
-		(fp_rect
-			(start 1.93 -1.25)
-			(end 8.23 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "cc4e6232-0185-412e-8ab9-d6b8fd460034")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "F.Fab")
-			(uuid "fabf47cd-f900-44e9-b29c-093c47b1b676")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 6 "+5V")
-			(pintype "passive")
-			(uuid "5007e5f5-a9b0-47cc-9126-57eb6a175725")
-		)
-		(pad "2" thru_hole circle
-			(at 10.16 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 5 "GND")
-			(pintype "passive")
-			(uuid "55e4a360-5301-4104-9423-d6b08d2cc2ca")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9ced8551-170a-40d1-9b0c-0069756cc3d9")
@@ -1093,7 +919,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9ba4f02e-9bf0-4ec4-8ad4-38dd8800c678")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.91 -2.96)
@@ -1605,7 +1431,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7730425c-ca8a-4c93-851f-28f396c993fc")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1710,7 +1536,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/16f9dd29-f584-4136-841b-3ebb3e5bd89e")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -1791,6 +1617,180 @@
 			)
 		)
 	)
+	(footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "b66e1f65-b343-4e07-8db1-27e522b15b64")
+		(at 145.3 78.5)
+		(descr "C, Axial series, Axial, Horizontal, pin pitch=10mm, length*diameter=3.8*2.6mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
+		(tags "C Axial series Axial Horizontal pin pitch 10mm  length 3.8mm diameter 2.6mm")
+		(property "Reference" "MD-C1"
+			(at 5 1.42 0)
+			(layer "F.SilkS")
+			(uuid "9ece7710-c80b-4e1e-b7b1-8ae862a0160b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 5 2.42 0)
+			(layer "F.Fab")
+			(uuid "97dc2d01-b432-4a9b-a62d-50fd9fdf07dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6da8541-7a69-48d6-b1a4-abd66d01444f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a81c7cad-801b-4398-83e9-2982841d983f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/155c830a-45f2-4807-b869-f60c014f8002")
+		(sheetname "/")
+		(sheetfile "Konami Justifier Main.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.04 0)
+			(end 2.98 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4685f2cc-4122-46bb-9c46-839ed871da65")
+		)
+		(fp_line
+			(start 8.96 0)
+			(end 7.02 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7979436d-8e65-40c9-85ae-67401febdc31")
+		)
+		(fp_rect
+			(start 2.98 -1.42)
+			(end 7.02 1.42)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d1ce8e1a-e332-4843-ae01-a568fc43053b")
+		)
+		(fp_rect
+			(start -1.05 -1.55)
+			(end 11.05 1.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6893c1bc-2d72-4f07-82ec-750652caf3e8")
+		)
+		(fp_line
+			(start 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e89f056c-7695-4e66-8637-2beb5f89702b")
+		)
+		(fp_line
+			(start 10 0)
+			(end 6.9 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "199b94b6-05b1-45f3-8e6f-6a16ab048284")
+		)
+		(fp_rect
+			(start 3.1 -1.3)
+			(end 6.9 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "32c87c7a-92a1-4de0-a76b-297ece01cb82")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5 0 0)
+			(layer "F.Fab")
+			(uuid "334d2fd0-fb74-4af5-87a0-1a9cead8fb10")
+			(effects
+				(font
+					(size 0.76 0.76)
+					(thickness 0.114)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "+5V")
+			(pintype "passive")
+			(uuid "5952bc82-27ff-4ec2-bd0c-68b30450d779")
+		)
+		(pad "2" thru_hole circle
+			(at 10 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "GND")
+			(pintype "passive")
+			(uuid "a0dbb1ee-5ea0-4ff8-817c-5e18c9068ac9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "be57cb05-7386-475f-a096-97d7a64be210")
@@ -1849,7 +1849,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3e61b750-39c9-4a82-b96e-7dda3c8d6eff")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1955,7 +1955,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d4e10bdc-8b01-4346-b79f-8e43249a97cf")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2061,7 +2061,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d6be50a5-a9db-4162-af2f-b393afddcebf")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2164,7 +2164,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f0539c01-ce26-482e-8eba-a59fc843cd0c")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.24 4.16)
@@ -2802,7 +2802,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fec8cd95-a53e-43f3-a4ac-f297b2216b04")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 9.12 0)
@@ -2976,7 +2976,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0483df48-9ebf-4def-9c51-78abdd0af6ce")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.16 4.16)
@@ -3474,7 +3474,7 @@
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
 		(path "/dd76c14a-9e8c-4fc5-bfda-5be845028c74")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.76 -5.21)
@@ -4018,7 +4018,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e78d127a-8d4a-42a2-8527-afe446ebe9cc")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 9.12 0)
@@ -4197,7 +4197,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f7a26092-6a63-41ba-8eac-d478067c7bf5")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 1 0)
@@ -4336,7 +4336,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/33eb4e52-b9c6-4141-8902-943eded121fa")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.13 2.62)
@@ -4524,7 +4524,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/498ccd95-69a0-4f47-8abb-69c7ef3e35b6")
 		(sheetname "/")
-		(sheetfile "Konami Justifier 02.kicad_sch")
+		(sheetfile "Konami Justifier Main.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.12 -1.37)
