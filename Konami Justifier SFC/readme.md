@@ -84,18 +84,19 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104)   |
+| C           | Ceramic Capacitor                                  | 1        | 100nF (104)   |
 | C           | Ceramic Capacitor                                  | 1        | 2.2nf (222)   |
-| C           | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
+| C1          | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
 | R           | zero-ohm link or zero-ohm resistor                 | 1        | 0 Ohm         |
-| IC1         | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816 |
+| U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816 |
 
 
 ### Top PCB
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| C           | Ceramic Capacitor                                  | 1        | 0.1µF (104)   |
+| C1          | THT Ceramic Capacitor                              | 1        | 100nF (104)   |
+| R1          | THT Resistor Beige (brown, black, red, gold)       | 1        | 1k Ohm 5% Tolerance |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
-| R           | Resistor                                           | 1        | 1k            |
+
 
