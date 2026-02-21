@@ -34,6 +34,7 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
 | MD-C1       | THT Capacitor Pink (brown, black, yellow , white)  | 1        | 100nF 10% Tolerance |
+| C1          | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
 | MD-R2       | THT Resistor Beige (yellow, violet, brown, gold)   | 1        | 470k 5% Tolerance |
 | U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816     |
 
@@ -41,7 +42,7 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| R1          | THT Resistor  Beige (brown, black, red, gold)      | 1        | 1k Ohm 5% Tolerance |
 | C1          | THT Capacitor Pink (brown, black, yellow , white)  | 1        | 100nF 10% Tolerance |
+| R1          | THT Resistor  Beige (brown, black, red, gold)      | 1        | 1k Ohm 5% Tolerance |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
 
