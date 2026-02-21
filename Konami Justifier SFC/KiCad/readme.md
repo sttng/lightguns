@@ -13,5 +13,11 @@
 
  ![Top PCB](https://raw.githubusercontent.com/sttng/lightguns/refs/heads/main/Konami%20Justifier%20SFC/KiCad/Button-Start.png) 
 
+ ## Trigger Button PCB
+
+ ![Top PCB](https://raw.githubusercontent.com/sttng/lightguns/refs/heads/main/Konami%20Justifier%20SFC/KiCad/Button-Trigger.png) 
+
+ 
+ 
  
  
