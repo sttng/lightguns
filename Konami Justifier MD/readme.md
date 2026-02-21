@@ -33,7 +33,7 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| MD-R1       | THT Resistor                                       | 1        | 10k or 100k Ohm 1% Tolerance |
+| MD-C1       | THT Capacitor                                       | 1       | 100nF |
 | MD-R2       | THT Resistor                                       | 1        | 470k 5% Tolerance |
 | U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816     |
 
