@@ -97,5 +97,5 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 |-------------|----------------------------------------------------|----------|---------------|
 | C           | Ceramic Capacitor                                  | 1        | 0.1µF (104)   |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
-| R           | ???                                                | 1        | ???           |
+| R           | Resistor                                           | 1        | 1k            |
 
