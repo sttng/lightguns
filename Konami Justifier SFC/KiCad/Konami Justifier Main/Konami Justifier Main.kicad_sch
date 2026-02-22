@@ -4353,7 +4353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
 			(at 60.96 149.225 90)
 			(effects
 				(font
