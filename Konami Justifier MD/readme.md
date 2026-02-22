@@ -35,7 +35,7 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 |-------------|----------------------------------------------------|----------|---------------|
 | C1          | Radial Electrolytic Capacitor                      | 1        | 10µF 25V      |
 | C2          | THT Capacitor Pink (brown, black, yellow , white)  | 1        | 100nF 10% Tolerance |
-| MD-R2       | THT Resistor Beige (yellow, violet, brown, gold)   | 1        | 470k 5% Tolerance |
+| MD-R1       | THT Resistor Beige (yellow, violet, brown, gold)   | 1        | 470k 5% Tolerance |
 | U1          | SOP16 JEITA / EIAJ Type II 5.3x10.3mm P1.27mm      | 1        | Konami 056816     |
 
 ### Top PCB
