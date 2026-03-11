@@ -1,6 +1,6 @@
 # PCB
 
-Within the *Konami Justifier Main Modern* folder, there is a "modern" version with SMD footprints. The other files are true to their originals.
+Within the *Konami Justifier Main Modern* folder, there is a "modern" version with SMD footprints. The other files are more true to their originals.
 
 
 ## Main / Bottom PCB
