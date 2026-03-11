@@ -1,4 +1,4 @@
-27312949936584628
+27316495785302686
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -75950,6 +75950,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PCM_Espressif
+CUI_RCJ-014
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+4
+4
+PCM_Espressif
 ESP32-C3-DevKitC-02
 
 
@@ -76222,6 +76229,13 @@ esp32-s3
 0
 73
 65
+PCM_Espressif
+ESP32-S3-SuperMini
+
+
+0
+18
+18
 PCM_Espressif
 ESP32-S3-WROOM-1
 ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
