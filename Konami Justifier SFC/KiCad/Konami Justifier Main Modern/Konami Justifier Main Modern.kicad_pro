@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.09,
-          "height": 1.74,
-          "width": 1.74
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "C:/Users/ifreund/Documents/Konami Justifier Main Modern/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
