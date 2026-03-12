@@ -103,7 +103,7 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 
 | Designator  | Footprint                                          | Quantity | Description   |
 |-------------|----------------------------------------------------|----------|---------------|
-| SW1         | Button_Switch_THT:SW_PUSH_6mm_H4.3mm               | 1        | DIPTRONICS DTS-61K  |
+| SW1         | Button_Switch_THT:SW_PUSH_6mm_H4.3mm               | 1        | DIPTRONICS DTS-61K or TS02-66-43-BK-100-LCR-D |
 
 
 
