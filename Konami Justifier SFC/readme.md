@@ -99,4 +99,11 @@ Seems this one is compatible: Sharp IS485E https://www.mouser.de/ProductDetail/S
 | R1          | THT Resistor Beige (brown, black, red, gold)       | 1        | 1k Ohm 5% Tolerance |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
 
+### Start PCB
+
+| Designator  | Footprint                                          | Quantity | Description   |
+|-------------|----------------------------------------------------|----------|---------------|
+| SW1         | Button_Switch_THT:SW_PUSH_6mm_H4.3mm               | 1        | DIPTRONICS DTS-61K  |
+
+
 
