@@ -1554,6 +1554,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2081,10 +2252,10 @@
 		(uuid "7dd1f95e-a145-40e2-8ae9-bdb0d23a07d3")
 	)
 	(junction
-		(at 69.85 64.77)
+		(at 69.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a72b96c-4bb8-4155-80ae-f19ca082e30d")
+		(uuid "8729559b-c614-444c-bf37-349a25ffae06")
 	)
 	(junction
 		(at 71.12 152.4)
@@ -2126,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 43.18) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0960e4d0-cfea-42b7-a52a-f9c6eda29b74")
+	)
+	(wire
+		(pts
 			(xy 161.29 54.61) (xy 187.96 54.61)
 		)
 		(stroke
@@ -2153,16 +2334,6 @@
 			(type default)
 		)
 		(uuid "18b72490-4ace-4da0-90b7-3c60bf88382a")
-	)
-	(wire
-		(pts
-			(xy 67.31 96.52) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d744bdf-9e12-4997-b50f-cecb4c0c9d7b")
 	)
 	(wire
 		(pts
@@ -2326,16 +2497,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 69.85 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb4af54-224c-4ece-9f4f-d5a8ba1d8ee7")
-	)
-	(wire
-		(pts
 			(xy 151.13 127) (xy 120.65 127)
 		)
 		(stroke
@@ -2343,6 +2504,16 @@
 			(type default)
 		)
 		(uuid "55485c34-cbb7-4836-a6be-4b05f6e06052")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57637a81-60ca-4358-ac06-f9ea51804876")
 	)
 	(wire
 		(pts
@@ -2446,13 +2617,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 69.85 64.77)
+			(xy 69.85 43.18) (xy 76.2 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d9d15ad-1974-44a5-949f-f414b1067455")
+		(uuid "6b92c22a-0316-41ea-bec0-cfeff1216b34")
 	)
 	(wire
 		(pts
@@ -2463,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "6e2a21cc-e358-4353-a8a9-cba44e5ba082")
+	)
+	(wire
+		(pts
+			(xy 60.96 43.18) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758e3d07-fbf1-4b84-bfc7-7aabae8bf695")
 	)
 	(wire
 		(pts
@@ -2496,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 43.18) (xy 69.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8248eec7-1681-4a21-a5a7-bfeb6bbc04de")
+	)
+	(wire
+		(pts
 			(xy 158.75 74.93) (xy 158.75 78.74)
 		)
 		(stroke
@@ -2526,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 67.31 96.52)
+			(xy 129.54 96.52) (xy 60.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2747,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 74.93 90.17)
+			(xy 81.28 43.18) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cba7db0-37ba-403d-ac5d-89d3bf6e601d")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2573,26 +2774,6 @@
 			(type default)
 		)
 		(uuid "9ee5ffbf-5136-4d2b-ad2f-a26ef8bcf939")
-	)
-	(wire
-		(pts
-			(xy 58.42 62.23) (xy 58.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a159d680-cc3b-404b-b9bc-be112eac8e2c")
-	)
-	(wire
-		(pts
-			(xy 64.77 62.23) (xy 58.42 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3dde8e9-74b6-4576-a51c-818aee163258")
 	)
 	(wire
 		(pts
@@ -2636,16 +2817,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f2f0a9-8369-407d-a484-265ba12ee3c7")
-	)
-	(wire
-		(pts
 			(xy 161.29 49.53) (xy 193.04 49.53)
 		)
 		(stroke
@@ -2673,26 +2844,6 @@
 			(type default)
 		)
 		(uuid "bd78b833-e56a-4d4a-9641-7c5fc2570c7a")
-	)
-	(wire
-		(pts
-			(xy 72.39 62.23) (xy 72.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a466b5-b444-4f2c-88c3-cc61d7c26c97")
-	)
-	(wire
-		(pts
-			(xy 69.85 64.77) (xy 69.85 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c272bd68-1b6f-4c31-bdff-e7dea7b3f63b")
 	)
 	(wire
 		(pts
@@ -2733,16 +2884,6 @@
 			(type default)
 		)
 		(uuid "cd20d97f-bd57-4c8a-bccd-9501e65a96e5")
-	)
-	(wire
-		(pts
-			(xy 77.47 87.63) (xy 77.47 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf029b13-b1f0-47ff-a58f-45f7327583df")
 	)
 	(wire
 		(pts
@@ -2836,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 77.47 87.63)
+			(xy 139.7 87.63) (xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3057,6 +3198,78 @@
 			(project "Konami Justifier Main"
 				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 60.96 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "134c83ee-32f7-4317-9037-dff0801e9e18")
+		(property "Reference" "J_IR1"
+			(at 59.182 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 55.626 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d00f5c-8a35-44b0-aff8-40c3911c7fcc")
+		)
+		(pin "3"
+			(uuid "1c13591f-9f7c-46ff-a368-80a46ca0ba2e")
+		)
+		(pin "2"
+			(uuid "57702c2f-8569-4a32-8667-8bcfbb63a6b1")
+		)
+		(instances
+			(project ""
+				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
+					(reference "J_IR1")
 					(unit 1)
 				)
 			)
@@ -3664,72 +3877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 69.85 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d00dedc-68c9-46f9-a78d-6af687930873")
-		(property "Reference" "#PWR06"
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c8410f-b4e4-41ce-ba1d-e7b7a9a7b2bb")
-		)
-		(instances
-			(project ""
-				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 48.26 90.17 90)
 		(unit 1)
@@ -3878,72 +4025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 58.42 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c57415d-0d3d-47b8-bb92-8694952b6dfe")
-		(property "Reference" "#PWR03"
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 58.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "818df0fe-b99e-4266-82da-0f9b73604970")
-		)
-		(instances
-			(project ""
-				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 152.4 0)
 		(unit 1)
@@ -4004,86 +4085,6 @@
 			(project ""
 				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 69.85 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ba4f02e-9bf0-4ec4-8ad4-38dd8800c678")
-		(property "Reference" "J2"
-			(at 71.12 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 71.12 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "69595131-ce3c-4c21-bf0c-2da743186a02")
-		)
-		(pin "2"
-			(uuid "d400f16e-8fce-4f2e-a687-a30c8cad5329")
-		)
-		(pin "1"
-			(uuid "36766c7a-a4ef-47a1-8ae9-f91beaab713d")
-		)
-		(pin "5"
-			(uuid "07fa8e2f-5bed-4c31-bb4d-18fc1096885e")
-		)
-		(pin "4"
-			(uuid "fdef8f37-d1d6-4ef9-86fa-110a098b4287")
-		)
-		(pin "3"
-			(uuid "25f2c111-fa45-4c52-ad93-114fb2214f25")
-		)
-		(instances
-			(project ""
-				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4216,6 +4217,78 @@
 			(project ""
 				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 78.74 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a86677a8-3604-4913-9cb5-116e62ef1306")
+		(property "Reference" "J_BTN1"
+			(at 76.708 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 73.406 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a69813-50eb-4755-988e-d78c856f6331")
+		)
+		(pin "3"
+			(uuid "93a84b88-f55a-4057-be7e-6763a392e077")
+		)
+		(pin "2"
+			(uuid "ad275ba0-c54b-4738-b228-270a33bd6e41")
+		)
+		(instances
+			(project "Konami Justifier Main Modern"
+				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
+					(reference "J_BTN1")
 					(unit 1)
 				)
 			)
@@ -4363,6 +4436,72 @@
 			(project ""
 				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
 					(reference "SFC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb0a84d-9e41-4a37-b77c-348fb113489a")
+		(property "Reference" "#PWR018"
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bf20bcb-a7cc-4cf1-a6e6-7827e0ec7c30")
+		)
+		(instances
+			(project "Konami Justifier Main Modern"
+				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5233,6 +5372,72 @@
 			(project ""
 				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb0674a-e29c-4627-8b28-6292f9ef7f71")
+		(property "Reference" "#PWR017"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0565816c-8bca-4925-946b-5a29a7e34fe8")
+		)
+		(instances
+			(project "Konami Justifier Main Modern"
+				(path "/57790297-21ee-4532-bd10-fc40752b9a93"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
