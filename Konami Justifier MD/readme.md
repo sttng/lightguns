@@ -51,6 +51,8 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 | Designator  | Footprint                                                     | Quantity | Description   |
 |-------------|---------------------------------------------------------------|----------|---------------|
 | M2x4mm      | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 1        | For Start Button |
+| M3x6mm      | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 4        | For case |
+| M3x12mm     | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 6        | 1 for spring of Trigger. 5 for case |
 
 
 
