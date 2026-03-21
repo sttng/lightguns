@@ -54,5 +54,9 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 | M3x6mm      | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 4        | For case |
 | M3x12mm     | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 6        | 1 for spring of Trigger. 5 for case |
 
+ ![Screws](https://raw.githubusercontent.com/sttng/lightguns/refs/heads/main/screws.jpg)
+
+
+
 
 
