@@ -46,3 +46,11 @@ http://www.markwylie.ca/2015/02/sega-konami-justifier-hack-convert.html
 | R1          | THT Resistor  Beige (brown, black, red, gold)      | 1        | 1k Ohm 5% Tolerance |
 | D           | Diode (Sharp IS485E)                               | 1        | Sharp IS485E  |
 
+### Screws
+
+| Designator  | Footprint                                                     | Quantity | Description   |
+|-------------|---------------------------------------------------------------|----------|---------------|
+| M2x4mm      | Black Zinc Phillips Pan Head Self Tapping Screws Cutting Tail | 1        | For Start Button |
+
+
+
