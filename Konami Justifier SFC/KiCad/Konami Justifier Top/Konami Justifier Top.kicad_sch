@@ -2053,7 +2053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZE_B06B-ZESK-D_1x06_P1.50mm_Vertical"
+		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
 			(at 59.055 157.48 90)
 			(effects
 				(font
