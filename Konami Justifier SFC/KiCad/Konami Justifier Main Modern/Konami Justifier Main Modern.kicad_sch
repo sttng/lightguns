@@ -3230,7 +3230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -4249,7 +4249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 78.74 38.1 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 156.21 49.53 0)
 			(effects
 				(font
@@ -5246,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0910_1x09_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B9B-PH-K_1x09_P2.00mm_Vertical"
 			(at 153.67 69.85 0)
 			(effects
 				(font
